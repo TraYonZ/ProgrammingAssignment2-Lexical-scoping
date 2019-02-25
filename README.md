@@ -1,10 +1,10 @@
 # ProgrammingAssignment2-Lexical-scoping
 
-## I´m going to write a pair of functions (¨makeCacheMatrix¨and ¨cacheSolve¨) 
-## that cache the inverse of a matrix
+I´m going to write a pair of functions (¨makeCacheMatrix¨and ¨cacheSolve¨) 
+that cache the inverse of a matrix
 
-## makeCacheMatrix is a function which creates a special "matrix" object that 
-## can cache its inverse for the input
+makeCacheMatrix is a function which creates a special "matrix" object that 
+can cache its inverse for the input
 
 makeCacheMatrix <- function(x = matrix()) {
   set <- function(y) {
@@ -18,9 +18,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve computes the inverse of the special "matrix" returned by makeCacheMatrix 
-## above. If the inverse has already been calculated (and the matrix has not changed), 
-## then the cachesolve should retrieve the inverse from the cache.
+cacheSolve computes the inverse of the special "matrix" returned by makeCacheMatrix 
+above. If the inverse has already been calculated (and the matrix has not changed), 
+then the cachesolve should retrieve the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
